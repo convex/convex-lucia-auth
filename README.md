@@ -5,7 +5,7 @@ This library uses Lucia 2.x, which has since been deprecated. We recommend using
 
 This library enables authentication built entirely on top of Convex without any third-party platform. It uses [Lucia](https://lucia-auth.com/) for the authentication logic.
 
-![Screenshot of the app](https://github.com/get-convex/convex-lucia-auth-demo/raw/main/screenshot.png)
+![Screenshot of the app](https://github.com/convex/convex-lucia-auth-demo/raw/main/screenshot.png)
 
 Features:
 
@@ -22,7 +22,7 @@ This integration works! You can see a production deployment at this live site: h
 npm install @convex-dev/convex-lucia-auth
 ```
 
-Checkout [Docs](https://github.com/get-convex/convex-lucia-auth/blob/master/DOCS.md) for how to integrate the library into your app.
+Checkout [Docs](https://github.com/convex/convex-lucia-auth/blob/master/DOCS.md) for how to integrate the library into your app.
 
 ## Deploying to production
 
@@ -54,7 +54,7 @@ built-in database that lets you write your
 [Rust](https://docs.convex.dev/client/rust),
 [ReactNative](https://docs.convex.dev/client/react-native), and
 [Node](https://docs.convex.dev/client/javascript) clients, as well as a straightforward
-[HTTP API](https://github.com/get-convex/convex-js/blob/main/src/browser/http_client.ts#L40).
+[HTTP API](https://github.com/convex/convex-js/blob/main/src/browser/http_client.ts#L40).
 
 The database support
 [NoSQL-style documents](https://docs.convex.dev/database/document-storage) with
